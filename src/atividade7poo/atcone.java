@@ -10,6 +10,27 @@ public class atcone {
 	public double precolatatinta2 = 467.98;
 	public double precolatatinta3 = 758.34;
 
+	
+	public atcone (float altura, float raio, int tinta) {
+		setAltura(altura);
+		setRaio(raio);
+		setTinta(tinta);
+		
+	}
+	
+	public atcone (float altura, float raio) {
+		setAltura(altura);
+		setRaio(raio);
+	}
+	
+	public atcone (int tinta) {
+		setTinta(tinta);
+		
+	}
+	
+	public atcone () {
+	}
+	
 	public float getAltura() {
 		return altura;
 	}

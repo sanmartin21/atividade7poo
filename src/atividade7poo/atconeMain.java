@@ -6,7 +6,7 @@ public class atconeMain {
 
 	public static void main(String[] args) {
 		
-		atcone atcone = new atcone ();
+		atcone atcone = new atcone (0);
 		
 		Scanner input = new Scanner (System.in);
 
